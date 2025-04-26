@@ -1,0 +1,25 @@
+{
+  "global": {
+    "exclude": ["**/DS_Store/**", "*.ignore", "*.tmp"]
+  },
+  "tasks": [
+    {
+      "name": "test-task",
+      "source": {
+        "path": "/test/source"
+      },
+      "destination": {
+        "path": "remote:/test/dest"
+      }
+    },
+    {
+      "name": "validation-task",
+      "source": {
+        "path": "/test/validation/source"
+      },
+      "destination": {
+        "path": "remote:/test/validation/dest"
+      }
+    }
+  ]
+}

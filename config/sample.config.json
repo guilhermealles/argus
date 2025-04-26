@@ -1,0 +1,16 @@
+{
+  "global": {
+    "exclude": ["**/DS_Store/**", "*.ignore"]
+  },
+  "tasks": [
+    {
+      "name": "validation-task",
+      "source": {
+        "path": "/Users/local-path/home"
+      },
+      "destination": {
+        "path": "rclone-s3-remote:/home"
+      }
+    }
+  ]
+}
